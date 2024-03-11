@@ -58,7 +58,7 @@
     "metro-react-native-babel-transformer": "^0.77.0",
     "moment": "^2.29.4",
     "multiple-cucumber-html-reporter": "^1.20.0",
-    "node-fetch": "2.6.1",
+    "node-fetch": "2.6.7",
     "react": "^18.2.0",
     "react-native": "0.73.5",
     "react-native-asset": "^2.1.0",
