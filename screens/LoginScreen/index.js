@@ -11,7 +11,6 @@ import routes, { LOGIN_TYPES } from "../../constants/routes";
 import testProperties from "../../utils/testProperties";
 import { appData, regionData, envData, langData } from "../../utils/data";
 
-import { RNSelectPicker } from "@yaradigitallabs/ahua-react-native";
 
 import SelectPicker from "react-native-select-picker-dropdown";
 const LoginScreen = ({

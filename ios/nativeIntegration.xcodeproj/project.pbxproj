@@ -637,6 +637,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CW9P2MP746;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = CW9P2MP746;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -671,6 +672,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CW9P2MP746;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = CW9P2MP746;
 				INFOPLIST_FILE = nativeIntegrationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
