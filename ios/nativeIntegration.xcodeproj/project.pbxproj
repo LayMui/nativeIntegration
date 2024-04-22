@@ -654,10 +654,10 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = testapp.AwesomeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.nativeIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development testapp.AwesomeProject";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development testapp.nativeIntegration";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nativeIntegration.app/nativeIntegration";
 			};
 			name = Debug;
@@ -685,10 +685,10 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = testapp.AwesomeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.nativeIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc testapp.AwesomeProject";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc testapp.nativeIntegration";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nativeIntegration.app/nativeIntegration";
 			};
 			name = Release;
@@ -700,11 +700,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CW9P2MP746;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TQ4CEX59HD;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = nativeIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -717,10 +717,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = testapp.AwesomeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.nativeIntegration;
 				PRODUCT_NAME = nativeIntegration;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development testapp.AwesomeProject";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = nativeIntegration;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -738,7 +738,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CW9P2MP746;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = TQ4CEX59HD;
 				INFOPLIST_FILE = nativeIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -750,10 +750,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = testapp.AwesomeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.nativeIntegration;
 				PRODUCT_NAME = nativeIntegration;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc testapp.AwesomeProject";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = nativeIntegration;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
